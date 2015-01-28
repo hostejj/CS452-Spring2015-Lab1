@@ -1,1 +1,11 @@
-name, date, description
+Name: Johnathon Hoste
+Date: January 27, 2015
+
+Description: For my solution I used a basic vertex and fragment shader
+for the color. To generate the shapes I preloaded the vertices  of each
+shape into a Float array. I then made use of javaScript to cause an event
+on each mouse click. That event kept track of what state the system was
+in. The event cleared the buffer and based on the state loaded in the 
+appropriate shape information and rendered the shape using a specific 
+render function. The render functions made use of TRIANGLES, TRIANGLE_FAN,
+and TRIANGLE_STRIP to render the shapes.
